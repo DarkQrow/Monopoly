@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/drawable/bluewhite_button.xml" value="0.329" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/drawable/buttons.xml" value="0.33" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/drawable/ic_launcher_background.xml" value="0.5675" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout-v26/room_settings.xml" value="0.5739583333333333" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/activity_main.xml" value="0.575" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/content_main.xml" value="0.575" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/gamemode_window.xml" value="0.31391200951248516" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/login_dialog.xml" value="0.19193154034229828" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/login_window.xml" value="0.26602409638554214" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/main_menu_unregisted_window.xml" value="0.3295843520782396" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/main_menu_window.xml" value="0.31391200951248516" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/room_settings.xml" value="0.3295843520782396" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/layout/room_settings_player.xml" value="0.3295843520782396" />
+        <entry key="..\:/Users/Tatyana/AndroidStudioProjects/Monopoly/app/src/main/res/menu/menu_main.xml" value="0.32760416666666664" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

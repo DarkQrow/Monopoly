@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\registry_dialog.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\registry_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\auth_choose_window.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\auth_choose_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\game_window.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\game_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\main_menu_window.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\main_menu_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\room_settings_bot.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\room_settings_bot.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\room_settings_player.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\room_settings_player.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\login_dialog.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\login_dialog.xml"
+    },
+    {
+        "merged": "com.CawCawStudio.app-mergeDebugResources-40:/layout/game_window.xml",
+        "source": "com.CawCawStudio.app-main-43:/layout/game_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\gamemode_window.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\gamemode_window.xml"
+    },
+    {
+        "merged": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-mergeDebugResources-40:\\layout\\main_menu_unregisted_window.xml",
+        "source": "C:\\Users\\Tatyana\\.gradle\\daemon\\7.3.3\\com.CawCawStudio.app-main-43:\\layout\\main_menu_unregisted_window.xml"
+    }
+]
