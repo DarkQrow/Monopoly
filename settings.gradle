@@ -14,4 +14,3 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Monopoly"
 include ':app'
-include ':common'

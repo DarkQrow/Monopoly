@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/green"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/skprimo_regular"
+            android:text="British Airways"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Авиалинии"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/regular_info"
+        android:textColor="@color/black" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:columnCount="2"
+        android:rowCount="11">
+
+        <TextView
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="Базовая рента" />
+
+        <TextView
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="200k"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="\u2605" />
+
+        <TextView
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="1000k"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_row="2"
+            android:layout_column="0"
+            android:text="\u2605\u2605" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_row="2"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="3000k"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_row="3"
+            android:layout_column="0"
+            android:text="\u2605\u2605\u2605" />
+
+        <TextView
+            android:layout_row="3"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="7500k"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="\u2605\u2605\u2605\u2605" />
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="9250k"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_row="5"
+            android:layout_column="0"
+            android:textSize="20sp"
+            android:textColor="@color/yellow"
+            android:text="\u2605" />
+
+        <TextView
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="11000k"
+            android:textColor="@color/black" />
+
+        <TextView android:layout_row="4"></TextView>
+        <TextView
+            android:layout_row="7"
+            android:layout_column="0"
+            android:text="Стоимость поля" />
+
+
+
+        <TextView
+            android:layout_row="7"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="2400k"
+            android:textColor="@color/black" />
+
+        <TextView
+
+            android:layout_row="8"
+            android:layout_column="0"
+            android:text="Залог поля" />
+
+        <TextView
+            android:layout_row="8"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="1200k"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_row="9"
+            android:layout_column="0"
+            android:text="Выкуп поля" />
+
+        <TextView
+            android:layout_row="9"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="1440k"
+            android:textColor="@color/black" />
+        <TextView
+            android:layout_row="10"
+            android:layout_column="0"
+            android:text="Покупка филиала" />
+
+        <TextView
+            android:layout_row="10"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="1250k"
+            android:textColor="@color/black" />
+    </GridLayout>
+
+
+</LinearLayout>

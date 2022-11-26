@@ -22,4 +22,5 @@ public class GameModeActivity extends AppCompatActivity {
         Intent nextActivity = new Intent(this,RoomSettingsPlayerActivity.class);
         startActivity(nextActivity);
     }
+
 }

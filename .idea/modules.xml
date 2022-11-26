@@ -7,10 +7,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Monopoly.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Monopoly.app.androidTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Monopoly.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Monopoly.app.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Monopoly.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Monopoly.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Monopoly.common.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Monopoly.common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Monopoly.common.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Monopoly.common.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Monopoly.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Monopoly.common.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/Monopoly.common.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/common/Monopoly.common.unitTest.iml" />
     </modules>
   </component>
 </project>

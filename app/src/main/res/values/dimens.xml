@@ -15,8 +15,8 @@
     <dimen name="hor_height_color">5dp</dimen>
     <dimen name="hor_height">50dp</dimen>
 
-    <dimen name="center_width">332dp</dimen>
-    <dimen name="center_height">272dp</dimen>
+    <dimen name="center_width">312dp</dimen>
+    <dimen name="center_height">252dp</dimen>
 
     <dimen name="userWindow_width">150dp</dimen>
     <dimen name="userWindow_height">50dp</dimen>

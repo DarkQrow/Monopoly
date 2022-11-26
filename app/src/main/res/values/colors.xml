@@ -20,4 +20,11 @@
     <color name="light_lazury">#50BFE6</color>
     <color name="green">#8CC051</color>
 
+    <color name="user_red">#FF0000</color>
+    <color name="user_orange">#FF5500</color>
+    <color name="user_green">#2EFF00</color>
+    <color name="user_yellow">#FFF300</color>
+    <color name="user_blue">#0071FF</color>
+    <color name="user_violet">#4C00FF</color>
+
 </resources>

@@ -9,6 +9,9 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="car_info">Рента зависит от количества Автомобилей, которыми вы владеете.</string>
+    <string name="regular_info">Стройте филиалы, чтобы увеличить ренту.</string>
+    <string name="gamedevelop_info">Рента зависит от суммы чисел на кубиках и от количества Разработчиков игр, которыми вы владеете.</string>
 
     <string-array name="gameModes">
         <item>Игра на время</item>
@@ -25,6 +28,7 @@
         <item>Предложить обмен</item>
         <item>Выставить на аукцион</item>
         <item>Взять кредит</item>
+        <item>Конец хода</item>
         <item>Сдасться</item>
     </string-array>
 

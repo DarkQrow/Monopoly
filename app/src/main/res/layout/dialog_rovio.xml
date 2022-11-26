@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/dark_red"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/skprimo_regular"
+            android:text="Rovio"
+            android:textColor="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Разработчики игр"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="@string/gamedevelop_info"
+        android:textColor="@color/black" />
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:columnCount="2"
+        android:rowCount="11">
+
+        <TextView
+            android:layout_row="0"
+            android:layout_column="0"
+            android:text="1 поле" />
+
+        <TextView
+            android:layout_row="0"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="🎲🎲x100"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_row="1"
+            android:layout_column="0"
+            android:text="2 поля" />
+
+        <TextView
+            android:layout_row="1"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="🎲🎲x250"
+            android:textColor="@color/black" />
+
+        <TextView android:layout_row="2" />
+
+        <TextView android:layout_row="4"></TextView>
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="0"
+            android:text="Стоимость поля" />
+
+        <TextView
+            android:layout_row="4"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="1500k"
+            android:textColor="@color/black" />
+
+        <TextView
+
+            android:layout_row="5"
+            android:layout_column="0"
+            android:text="Залог поля" />
+
+        <TextView
+            android:layout_row="5"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="750k"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_row="6"
+            android:layout_column="0"
+            android:text="Выкуп поля" />
+
+        <TextView
+            android:layout_row="6"
+            android:layout_column="1"
+            android:layout_gravity="end"
+            android:text="900k"
+            android:textColor="@color/black" />
+
+    </GridLayout>
+
+
+</LinearLayout>

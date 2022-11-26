@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -10,1077 +9,1191 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal"
-        >
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:background="@color/darkerblue"
-        android:orientation="vertical"
-        android:padding="5dp"
-        >
+        android:orientation="horizontal">
 
-        <LinearLayout
+        <FrameLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <ImageView
-                android:layout_width="@dimen/corner_width"
-                android:layout_height="@dimen/corner_height"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:padding="10dp"
-                android:src="@drawable/startup_rocket_svgrepo_com" />
+            android:layout_height="match_parent">
 
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/pink"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/chanel_2_logo_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height"
-                    android:src="@drawable/question_round_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/pink"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/boss_hugo_boss_1" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height"
-                    android:padding="5dp"
-                    android:src="@drawable/money_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/red"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:padding="5dp"
-                    android:rotation="-90"
-                    android:src="@drawable/mercedes_benz_9_logo_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/yellow"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/adidas_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height"
-                    android:src="@drawable/question_round_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/yellow"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/puma_logo_logo_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/yellow"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/lacoste_logo"
-                    tools:ignore="ContentDescription" />
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="@dimen/corner_width"
-                android:layout_height="@dimen/corner_height"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:padding="10dp"
-                android:src="@drawable/group_1" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_height="match_parent"
+                android:background="@color/darkerblue"
+                android:orientation="vertical"
+                android:padding="5dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/grey"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-                    <View
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:padding="5dp"
-                        android:src="@drawable/nokia_3" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width"
-                        android:layout_height="@dimen/vert_height"
-                        android:rotation="-90"
-                        android:src="@drawable/question_round_svgrepo_com" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/grey"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:padding="3dp"
-                        android:src="@drawable/apple_14"
-                        />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width"
-                        android:layout_height="@dimen/vert_height"
-                        android:rotation="-90"
-                        android:src="@drawable/question_round_svgrepo_com" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/red"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:padding="5dp"
-                        android:src="@drawable/land_roverin_logo" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/purple"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:padding="5dp"
-                        android:src="@drawable/logo_novotel" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="vertical">
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width"
-                        android:layout_height="@dimen/vert_height"
-                        android:rotation="-90"
-                        android:src="@drawable/question_round_svgrepo_com" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/purple"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:src="@drawable/radisson_1" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/purple"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:padding="2dp"
-                        android:src="@drawable/holiday_inn_logo" />
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="@dimen/center_width"
-                android:layout_height="@dimen/center_height"
-                android:layout_margin="1dp"
-                android:background="@color/black"
-                ></LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:src="@drawable/vk_vk_svgrepo_com" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/cink"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:padding="4dp"
-                        android:src="@drawable/rockstar" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/dark_red"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:src="@drawable/facebook_5_logo_svgrepo_com" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/cink"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:src="@drawable/twitter_svgrepo_com" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/cink"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:src="@drawable/audi_svgrepo_com" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/red"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
+                        android:layout_width="@dimen/corner_width"
+                        android:layout_height="@dimen/corner_height"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:padding="10dp"
+                        android:src="@drawable/startup_rocket_svgrepo_com" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showChanelDialog"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/pink"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/chanel_2_logo_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height"
+                            android:src="@drawable/question_round_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showHugoBossDialog"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/pink"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+
+                            android:src="@drawable/boss_hugo_boss_1" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height"
+                            android:padding="5dp"
+                            android:src="@drawable/money_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showMercedesDialog"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/red"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:padding="5dp"
+                            android:rotation="-90"
+                            android:src="@drawable/mercedes_benz_9_logo_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showAdidasDialog"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/yellow"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/adidas_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height"
+                            android:src="@drawable/question_round_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showPumaDialog"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/yellow"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/puma_logo_logo_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showLacosteDialog"
+                        android:orientation="vertical">
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/yellow"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/lacoste_logo"
+                            tools:ignore="ContentDescription" />
+                    </LinearLayout>
+
+                    <ImageView
+                        android:layout_width="@dimen/corner_width"
+                        android:layout_height="@dimen/corner_height"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:padding="10dp"
+                        android:src="@drawable/group_1" />
 
                 </LinearLayout>
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showNokiaDialog"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/grey"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:padding="3dp"
+                                android:src="@drawable/nokia_3" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width"
+                                android:layout_height="@dimen/vert_height"
+                                android:rotation="-90"
+                                android:src="@drawable/question_round_svgrepo_com" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showApplelDialog"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/grey"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:padding="3dp"
+                                android:src="@drawable/apple_14" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width"
+                                android:layout_height="@dimen/vert_height"
+                                android:rotation="-90"
+                                android:src="@drawable/gem_stone_svgrepo_com" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showLandRoverDialog"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/red"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:padding="5dp"
+                                android:src="@drawable/land_roverin_logo" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showNovotelDialog"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/purple"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:padding="5dp"
+                                android:src="@drawable/logo_novotel" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width"
+                                android:layout_height="@dimen/vert_height"
+                                android:rotation="-90"
+                                android:src="@drawable/question_round_svgrepo_com" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showRadissonBluDialog"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/purple"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:src="@drawable/radisson_1" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showHolidayInnDialog"
+                            android:orientation="horizontal">
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/purple"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:padding="2dp"
+                                android:src="@drawable/holiday_inn_logo" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/center_width"
+                        android:layout_height="@dimen/center_height"
+                        android:layout_margin="10dp"
+                        android:background="@drawable/_46007_e9c8b6"></LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showVKDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:src="@drawable/vk_vk_svgrepo_com" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/cink"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showRockStarDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:padding="4dp"
+                                android:src="@drawable/rockstar" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/dark_red"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showFacebookDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:src="@drawable/facebook_5_logo_svgrepo_com" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/cink"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showTwitterDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:src="@drawable/twitter_svgrepo_com" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/cink"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showAudiDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:src="@drawable/audi_svgrepo_com" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/red"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showCocaColaDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:src="@drawable/coca_cola_logo_svgrepo_com" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/lazury"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width"
+                                android:layout_height="@dimen/vert_height"
+                                android:rotation="90"
+                                android:src="@drawable/question_round_svgrepo_com" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showPepsiDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:src="@drawable/pepsi_logo_svgrepo_com" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/lazury"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="1dp"
+                            android:background="@color/white"
+                            android:clickable="true"
+                            android:onClick="showFantaDialog"
+                            android:orientation="horizontal">
+
+                            <ImageView
+                                android:layout_width="@dimen/vert_width_image"
+                                android:layout_height="@dimen/vert_height"
+                                android:padding="2dp"
+                                android:src="@drawable/fanta_6" />
+
+                            <View
+                                android:layout_width="@dimen/vert_width_color"
+                                android:layout_height="@dimen/vert_height"
+                                android:background="@color/lazury"
+                                android:gravity="center"
+                                android:textColor="@color/black" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:src="@drawable/coca_cola_logo_svgrepo_com" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/lazury"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
+                        android:layout_width="@dimen/corner_width"
+                        android:layout_height="@dimen/corner_height"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:padding="10dp"
+                        android:src="@drawable/policeman_icon" />
 
-                </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showKFCDialog"
+                        android:orientation="vertical">
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:padding="6dp"
+                            android:rotation="-90"
+                            android:src="@drawable/kfc_4" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/light_lazury"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showRovioDialog"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/rovio_entertainment_logo" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/dark_red"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showBurgerKingDialog"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:padding="5dp"
+                            android:rotation="-90"
+                            android:src="@drawable/burger_king_4" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/light_lazury"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showMcDonaldsDialog"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:padding="6dp"
+                            android:rotation="-90"
+                            android:src="@drawable/mcdonald_s_golden_arches" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/light_lazury"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showFordDialog"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:padding="5dp"
+                            android:rotation="-90"
+                            android:src="@drawable/ford_8" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/red"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showBritishAirlinesDialog"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/british_airways_logo_vector_1" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/green"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showLufthansaDialog"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/lufthansa_logo_2018" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/green"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height"
+                            android:rotation="180"
+                            android:src="@drawable/question_round_svgrepo_com" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:clickable="true"
+                        android:onClick="showAmericanAirlinesDialog"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_image"
+                            android:rotation="-90"
+                            android:src="@drawable/aa_american_airlines"
+                            tools:ignore="ContentDescription" />
+
+                        <View
+                            android:layout_width="@dimen/hor_width"
+                            android:layout_height="@dimen/hor_height_color"
+                            android:background="@color/green"
+                            android:gravity="center"
+                            android:textColor="@color/black" />
+
+
+                    </LinearLayout>
 
                     <ImageView
-                        android:layout_width="@dimen/vert_width"
-                        android:layout_height="@dimen/vert_height"
-                        android:rotation="90"
-                        android:src="@drawable/question_round_svgrepo_com" />
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:src="@drawable/pepsi_logo_svgrepo_com" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/lazury"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
+                        android:layout_width="@dimen/corner_width"
+                        android:layout_height="@dimen/corner_height"
+                        android:layout_margin="1dp"
+                        android:background="@color/white"
+                        android:padding="10dp"
+                        android:src="@drawable/gambler_casino_svgrepo_com" />
 
                 </LinearLayout>
 
-                <LinearLayout
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_margin="1dp"
-                    android:background="@color/white"
-                    android:clickable="true"
-                    android:orientation="horizontal">
-
-                    <ImageView
-                        android:layout_width="@dimen/vert_width_image"
-                        android:layout_height="@dimen/vert_height"
-                        android:padding="2dp"
-                        android:src="@drawable/fanta_6" />
-                    <View
-                        android:layout_width="@dimen/vert_width_color"
-                        android:layout_height="@dimen/vert_height"
-                        android:background="@color/lazury"
-                        android:gravity="center"
-                        android:textColor="@color/black" />
-
-                </LinearLayout>
 
             </LinearLayout>
 
-        </LinearLayout>
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginStart="10dp"
+                android:background="@drawable/user_circle_red">
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            </View>
 
-            <ImageView
-                android:layout_width="@dimen/corner_width"
-                android:layout_height="@dimen/corner_height"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:padding="10dp"
-                android:src="@drawable/policeman_icon" />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/user_circle_orange"></View>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/user_circle_yellow"></View>
 
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:padding="6dp"
-                    android:src="@drawable/kfc_4" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/light_lazury"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/user_circle_green"></View>
 
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/user_circle_blue"></View>
 
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/rovio_entertainment_logo" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/dark_red"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:padding="5dp"
-                    android:src="@drawable/burger_king_4" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/light_lazury"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
+            <View
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="40dp"
+                android:background="@drawable/user_circle_violet"></View>
 
 
-            </LinearLayout>
+        </FrameLayout>
 
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:padding="6dp"
-                    android:src="@drawable/mcdonald_s_golden_arches" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/light_lazury"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:padding="5dp"
-                    android:rotation="-90"
-                    android:src="@drawable/ford_8" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/red"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/nike" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/green"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/lufthansa_logo_2018" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/green"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height"
-                    android:rotation="180"
-                    android:src="@drawable/question_round_svgrepo_com" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:clickable="true"
-                android:orientation="vertical">
-                <ImageView
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_image"
-                    android:rotation="-90"
-                    android:src="@drawable/aa_american_airlines"
-                    tools:ignore="ContentDescription" />
-                <View
-                    android:layout_width="@dimen/hor_width"
-                    android:layout_height="@dimen/hor_height_color"
-                    android:background="@color/green"
-                    android:gravity="center"
-                    android:textColor="@color/black" />
-
-
-            </LinearLayout>
-
-            <ImageView
-                android:layout_width="@dimen/corner_width"
-                android:layout_height="@dimen/corner_height"
-                android:layout_margin="1dp"
-                android:background="@color/white"
-                android:padding="10dp"
-                android:src="@drawable/gambler_casino_svgrepo_com" />
-
-        </LinearLayout>
-
-
-    </LinearLayout>
-    <GridLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:columnCount="2"
-        android:rowCount="2"
-        android:padding="7dp"
-        android:background="@color/darkerblue"
-        >
-        <TextView
-            android:layout_width="180dp"
-            android:layout_height="300dp"
-            android:layout_marginEnd="5dp"
-            android:textAlignment="center"
-            android:text="Игра началась"
-            android:fontFamily="@font/skprimo_regular"
-            android:background="@color/light_lazury"
-            />
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@color/darkerblue"
-            android:layout_gravity="end"
-            android:orientation="vertical"
-            >
-            <LinearLayout
-                android:layout_width="@dimen/userWindow_width"
-                android:layout_height="@dimen/userWindow_height"
-                android:layout_margin="5dp"
-                android:background="@color/blue"
-                android:orientation="horizontal"
-                >
-                <ImageView
-                    android:layout_width="@dimen/userIcon"
-                    android:layout_height="@dimen/userIcon"
-                    android:padding="2dp"
-                    android:src="@drawable/defuser">
-                </ImageView>
-                <LinearLayout
-                    android:layout_width="@dimen/userWindowText"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="UserName"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="2000"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="@dimen/userWindow_width"
-                android:layout_height="@dimen/userWindow_height"
-                android:layout_margin="5dp"
-                android:background="@color/blue"
-                android:orientation="horizontal"
-                >
-                <ImageView
-                    android:layout_width="@dimen/userIcon"
-                    android:layout_height="@dimen/userIcon"
-                    android:padding="2dp"
-                    android:src="@drawable/defuser">
-                </ImageView>
-                <LinearLayout
-                    android:layout_width="@dimen/userWindowText"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="UserName"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="2000"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="@dimen/userWindow_width"
-                android:layout_height="@dimen/userWindow_height"
-                android:layout_margin="5dp"
-                android:background="@color/blue"
-                android:orientation="horizontal"
-                >
-                <ImageView
-                    android:layout_width="@dimen/userIcon"
-                    android:layout_height="@dimen/userIcon"
-                    android:padding="2dp"
-                    android:src="@drawable/defuser">
-                </ImageView>
-                <LinearLayout
-                    android:layout_width="@dimen/userWindowText"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="UserName"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="2000"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="@dimen/userWindow_width"
-                android:layout_height="@dimen/userWindow_height"
-                android:layout_margin="5dp"
-                android:background="@color/blue"
-                android:orientation="horizontal"
-                >
-                <ImageView
-                    android:layout_width="@dimen/userIcon"
-                    android:layout_height="@dimen/userIcon"
-                    android:padding="2dp"
-                    android:src="@drawable/defuser">
-                </ImageView>
-                <LinearLayout
-                    android:layout_width="@dimen/userWindowText"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="UserName"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:textAlignment="center"
-                        android:text="2000"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-            <LinearLayout
-                android:layout_width="@dimen/userWindow_width"
-                android:layout_height="@dimen/userWindow_height"
-                android:layout_margin="5dp"
-                android:background="@color/blue"
-                android:orientation="horizontal"
-                >
-                <ImageView
-                    android:layout_width="@dimen/userIcon"
-                    android:layout_height="@dimen/userIcon"
-                    android:padding="2dp"
-                    android:src="@drawable/defuser">
-                </ImageView>
-                <LinearLayout
-                    android:layout_width="@dimen/userWindowText"
-                    android:layout_height="wrap_content"
-                    android:orientation="vertical">
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="UserName"
-                        />
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textAlignment="center"
-                        android:fontFamily="@font/skprimo_regular"
-                        android:textSize="@dimen/userTextSize"
-                        android:text="2000"
-                        />
-                </LinearLayout>
-            </LinearLayout>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="end|bottom"
-            >
-        <Spinner
-            android:id="@+id/user_actions"
-            android:layout_width="190dp"
-            android:layout_height="50dp"
-            android:textAlignment="center"
-            android:background="@color/blue"
-            android:fontFamily="@font/skprimo_regular"
-            android:entries="@array/userActions"
-            >
-        </Spinner>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="@dimen/mainUserWindow_width"
-            android:layout_height="@dimen/mainUserWindow_height"
-            android:layout_gravity="end"
-            android:background="@color/blue"
-            >
-            <ImageView
-                android:layout_width="@dimen/mainUserIcon"
-                android:layout_height="@dimen/mainUserIcon"
-                android:padding="2dp"
-                android:src="@drawable/defuser">
-            </ImageView>
-            <LinearLayout
-                android:layout_width="@dimen/mainUserWindowText"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:fontFamily="@font/skprimo_regular"
-                    android:textSize="@dimen/mainUserTextSize"
-                    android:text="UserName"
-                    />
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textAlignment="center"
-                    android:fontFamily="@font/skprimo_regular"
-                    android:text="2000"
-                    />
-            </LinearLayout>
-        </LinearLayout>
+            android:columnCount="2"
+            android:padding="7dp"
+            android:rowCount="2">
 
-    </GridLayout>
+            <TextView
+                android:layout_width="180dp"
+                android:layout_height="300dp"
+                android:layout_marginEnd="5dp"
+                android:background="@color/light_lazury"
+                android:fontFamily="@font/skprimo_regular"
+                android:text="Игра началась"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@color/darkerblue"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="@dimen/userWindow_width"
+                    android:layout_height="@dimen/userWindow_height"
+                    android:layout_margin="5dp"
+                    android:background="@color/blue"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/userIcon"
+                        android:layout_height="@dimen/userIcon"
+                        android:padding="2dp"
+                        android:background="@drawable/user_circle_red"
+                        android:src="@drawable/defuser"></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/userWindowText"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="UserName"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="2000"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/userWindow_width"
+                    android:layout_height="@dimen/userWindow_height"
+                    android:layout_margin="5dp"
+                    android:background="@color/blue"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/userIcon"
+                        android:layout_height="@dimen/userIcon"
+                        android:padding="2dp"
+                        android:background="@drawable/user_circle_orange"
+                        android:src="@drawable/defuser"></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/userWindowText"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="UserName"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="2000"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/userWindow_width"
+                    android:layout_height="@dimen/userWindow_height"
+                    android:layout_margin="5dp"
+                    android:background="@color/blue"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/userIcon"
+                        android:layout_height="@dimen/userIcon"
+                        android:padding="2dp"
+                        android:background="@drawable/user_circle_yellow"
+                        android:src="@drawable/defuser"></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/userWindowText"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="UserName"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="2000"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/userWindow_width"
+                    android:layout_height="@dimen/userWindow_height"
+                    android:layout_margin="5dp"
+                    android:background="@color/blue"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/userIcon"
+                        android:layout_height="@dimen/userIcon"
+                        android:padding="2dp"
+                        android:background="@drawable/user_circle_green"
+                        android:src="@drawable/defuser"></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/userWindowText"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="UserName"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="2000"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="@dimen/userWindow_width"
+                    android:layout_height="@dimen/userWindow_height"
+                    android:layout_margin="5dp"
+                    android:background="@color/blue"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/userIcon"
+                        android:layout_height="@dimen/userIcon"
+                        android:padding="2dp"
+                        android:background="@drawable/user_circle_blue"
+                        android:src="@drawable/defuser"></ImageView>
+
+                    <LinearLayout
+                        android:layout_width="@dimen/userWindowText"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="UserName"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/skprimo_regular"
+                            android:text="2000"
+                            android:textAlignment="center"
+                            android:textSize="@dimen/userTextSize" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom">
+
+                <Spinner
+                    android:id="@+id/user_actions"
+                    android:layout_width="190dp"
+                    android:layout_height="50dp"
+                    android:background="@color/blue"
+                    android:entries="@array/userActions"
+                    android:fontFamily="@font/skprimo_regular"
+                    android:textAlignment="center"></Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="@dimen/mainUserWindow_width"
+                android:layout_height="@dimen/mainUserWindow_height"
+                android:layout_gravity="end"
+                android:background="@color/blue">
+
+                <ImageView
+                    android:layout_width="@dimen/mainUserIcon"
+                    android:layout_height="@dimen/mainUserIcon"
+                    android:padding="2dp"
+                    android:background="@drawable/user_circle_violet"
+                    android:src="@drawable/defuser"></ImageView>
+
+                <LinearLayout
+                    android:layout_width="@dimen/mainUserWindowText"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/skprimo_regular"
+                        android:text="UserName"
+                        android:textAlignment="center"
+                        android:textSize="@dimen/mainUserTextSize" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/skprimo_regular"
+                        android:text="2000"
+                        android:textAlignment="center" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </GridLayout>
 
 
     </LinearLayout>

@@ -46,5 +46,6 @@
         android:layout_margin="20dp"
         android:text="Настройки"
         android:textSize="26sp"
-        android:background="@drawable/bluewhite_button"/>
+        android:background="@drawable/bluewhite_button"
+        android:onClick="settings"/>
 </LinearLayout>

@@ -4,6 +4,8 @@
     package="com.CawCawStudio">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -30,12 +32,21 @@
             android:name=".GameMode.RoomSettingsPlayerActivity"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             />
-
+        <activity
+            android:name=".Menu.SettingsActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            />
 
         <activity
             android:name=".Game.GameActivity"
-            android:exported="true"
             android:screenOrientation="landscape"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
+            >
+        </activity>
+
+        <activity
+            android:name=".AuthChoice.AuthChoiceActivity"
+            android:exported="true"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar.FullScreen"
             >
 
@@ -45,20 +56,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-
-<!--        <activity
-            android:name=".AuthChoice.AuthChoiceActivity"
-            android:exported="true"
-            android:theme="@style/Theme.AppCompat"
-            >
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>-->
 
     </application>
 
